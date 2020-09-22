@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+	 background-image:linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)), url(Small-Business-Web-Development-1042x665.jpg);
+	height: 100vh;
+	background-size: cover; 
+	background-position:  center;
+	}
+ul{
+		float: right;  
+		list-style: none;
+		margin: 20px;
+
+	}
+ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:15px;
+	border: 1px solid transparent;
+	transition: .6s ease;
+}
+ul li a:hover, .active a{
+	background-color: #FFB6C1;
+	color: #000;
+}
+
+.logo img{
+	
+	margin: auto;
+	padding: 20px;
+	float: left;
+	height: auto;
+	width: 120px;
+} 
+.main {
+	max-width: 1200px;
+	
+}
+
+
+.ha {
+	
+	background: transparent;
+	border-bottom: 1px soft gray;
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	font-family: Bradley Hand, cursive;
+	text-align: left;
+	top: 50%;
+	padding: 20px;
+	
+}
+.hl{
+	font-size: 35px;
+	position: absolute;
+	top:35%;
+	left:68%;
+	height: 50wx;
+}
+form{
+	
+	margin-top: 15px;
+	transition: all 1s ease-in-out;
+}
+
+form input{
+	width: 200px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 15px;
+	color: #FFB6C1;
+	}
+form button{
+	width: 120px;
+	height: auto;
+	background-color: gray;
+}
+
+form button:hover {
+	font-size: 15px;
+	background-color: #800000;
+	color: #fff;
+	border: soft;
+	
+}
+ 
